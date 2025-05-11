@@ -10,22 +10,22 @@ O código está documentado e funcional. Abaixo, os desafios propostos e seus re
 ### ✅ Desafios Implementados
 
 - **Desafio 1 — Verificador de Tags HTML**  
-  [`TagValidator.tsx`](./src/app/components/TagValidator.tsx)
+  [`TagValidator.tsx`](auroratestproject/src/app/components/TagValidator.tsx)
 
 - **Desafio 2 — Soma Condicional**  
-  [`SomaCondicional.tsx`](./src/app/components/SomaCondicional.tsx)
+  [`SomaCondicional.tsx`](auroratestproject/src/app/components/SomaCondicional.tsx)
 
 - **Desafio 3 — Filtro de Produtos**  
-  [`FiltrarProdutos.tsx`](./src/app/components/FiltrarProdutos.tsx)
+  [`FiltrarProdutos.tsx`](auroratestproject/src/app/components/FiltrarProdutos.tsx)
 
 - **Desafio 4 — Conversor de Data**  
-  [`CorrigirData.tsx`](./src/app/components/CorrigirData.tsx)
+  [`CorrigirData.tsx`](auroratestprojectsrc/app/components/CorrigirData.tsx)
 
 - **Desafio 5 — Validador de Formulário**  
-  [`FormularioValidado.tsx`](./src/app/components/FormularioValidado.tsx)
+  [`FormularioValidado.tsx`](auroratestproject/src/app/components/FormularioValidado.tsx)
 
 - **Desafio 6 — Hook Personalizado: useContador**  
-  [`Contador.tsx`](./src/app/components/Contador.tsx)
+  [`Contador.tsx`](auroratestproject/src/app/components/Contador.tsx)
 
 ---
 

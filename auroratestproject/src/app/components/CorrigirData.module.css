@@ -1,0 +1,50 @@
+.container {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.headingTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.headingSubtitle {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.dataText {
+  font-size: 16px;
+  color: #333;
+  min-height: 24px; /* Garante altura para o skeleton não colapsar */
+  display: flex;
+  align-items: center;
+}
+
+/* Skeleton */
+.skeleton {
+  height: 1em;
+  width: 100%;
+  background: linear-gradient(90deg, #eee 25%, #ddd 50%, #eee 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.2s infinite;
+  border-radius: 4px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}

@@ -1,0 +1,67 @@
+/* components/Contador.module.css */
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+}
+
+.incrementar {
+  background-color: #4caf50;
+  color: white;
+}
+
+.decrementar {
+  background-color: #f44336;
+  color: white;
+}
+
+.resetar {
+  background-color: #ffa500;
+  color: white;
+}
+
+.incrementar:hover {
+  background-color: #45a049;
+}
+
+.decrementar:hover {
+  background-color: #e53935;
+}
+
+.resetar:hover {
+  background-color: #fb8c00;
+}
+
+.value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,132 @@
+/* Container principal */
+.container {
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Arial', sans-serif;
+  padding: 15px; /* Aumentei o padding para dar mais espaço ao conteúdo */
+  background-color: #f4f4f9; /* Fundo suave */
+  border-radius: 10px; /* Bordas arredondadas */
+  max-width: 1200px; /* Limita o tamanho do container em telas grandes */
+  margin-left: auto;
+  margin-right: auto; /* Centraliza o conteúdo */
+}
+
+/* Estilos para o botão */
+.button {
+  padding: 14px 28px; /* Ajustei o padding para tornar o botão mais espaçoso */
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #0070f3;
+  color: #fff;
+  max-width: 250px; /* Limita a largura do botão para melhorar a estética */
+  width: 100%; /* Faz o botão ocupar toda a largura disponível */
+}
+
+/* Efeito de hover no botão */
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  background-color: #005bb5;
+}
+
+/* Desabilitado: botão com fundo cinza */
+.buttonDisabled {
+  background-color: #b0b0b0;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+/* Ativo: botão com fundo azul */
+.buttonActive {
+  background-color: #0070f3;
+  color: #fff;
+}
+
+/* Botão de "Mostrar Todos" com espaçamento */
+.buttonShowAll {
+  margin-left: 10px;
+}
+
+/* Lista de produtos */
+.productList {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  list-style: none;
+  padding-left: 0;
+  max-width: 1000px; /* Limita a largura da lista de produtos */
+  margin-left: auto;
+  margin-right: auto; /* Centraliza a lista */
+}
+
+.productItem {
+  margin-bottom: 20px; /* Aumento o espaçamento entre os itens */
+  padding: 14px; /* Mais padding para tornar os itens mais legíveis */
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeito de hover nos itens da lista de produtos */
+.productItem:hover {
+  background-color: #e0f7fa;
+  transform: scale(1.02);
+}
+
+/* Título personalizado para h2 */
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Transição suave nas mudanças de cor */
+.button, .productItem {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .button {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+
+  .productList {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .productItem {
+    padding: 12px; /* Aumentei um pouco o padding dos itens para melhor usabilidade em telas pequenas */
+  }
+
+  .container {
+    padding: 10px; /* Menos padding em telas muito pequenas */
+  }
+}

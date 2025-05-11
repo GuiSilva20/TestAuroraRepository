@@ -1,0 +1,113 @@
+/* SomaCondicional.module.css */
+
+/* Container principal */
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+/* Estilo para os campos de entrada */
+.inputWrapper {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Estilo para o campo de entrada */
+.inputField {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  width: 80%;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Validação de input inválido */
+.inputInvalid {
+  border: 2px solid #ff4d4d;
+  box-shadow: 0 0 5px rgba(255, 77, 77, 0.5);
+}
+
+/* Efeito de foco no campo de entrada */
+.inputField:focus {
+  outline: none;
+  border-color: #0070f3;
+  box-shadow: 0 0 8px rgba(0, 112, 243, 0.4);
+}
+
+/* Botão de remoção */
+.removeButton {
+  font-size: 18px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #ff4d4d;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.removeButton:hover {
+  color: #ff0000;
+}
+
+/* Mensagem de erro */
+.errorMessage {
+  color: #ff4d4d;
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 600;
+}
+
+/* Botão para adicionar novos campos */
+.addButton {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.addButton:hover {
+  background-color: #005bb5;
+}
+
+.addButton:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 112, 243, 0.4);
+}
+
+/* Estilo para a soma final */
+.somaFinal {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  padding: 10px;
+  background-color: #e8f7ff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

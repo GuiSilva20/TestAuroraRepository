@@ -66,7 +66,7 @@ const StyledWrapper = styled.div`
     height: 2.8em;
     padding-right: 3.3em;
     transition: all 0.3s ease-in-out;
-    margin: 10px;  /* Adicionado para criar o espaço ao redor do botão */
+    margin: 10px;  
   }
 
   .cssbuttons-io-button .icon {

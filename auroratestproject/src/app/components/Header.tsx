@@ -1,14 +1,19 @@
-// components/Header.tsx
-
 import React from "react";
-import styles from "./Header.module.css"; // Importando o CSS modular
+import styles from "./Header.module.css";
+import MudarTeste from "./MudarTeste";
 
-const Header: React.FC = () => {
+interface HeaderProps {
+  isVisible: boolean;
+  setIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const Header: React.FC<HeaderProps> = ({ isVisible, setIsVisible }) => {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <h1 className={styles.title}>AURORA INTELIGÊNCIA - TESTE TÉCNICO PERSONALIZADO</h1>
+        <h1 className={styles.title}>{'<AI/>'}</h1>
       </div>
+      <MudarTeste isVisible={isVisible} setIsVisible={setIsVisible} />
     </header>
   );
 };

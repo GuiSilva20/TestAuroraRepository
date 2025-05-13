@@ -7,7 +7,16 @@ Bem-vindo ao repositório do projeto de Teste Personalizado para a **Aurora Inte
 
 O código está documentado e funcional. Abaixo, os desafios propostos e seus respectivos componentes:
 
-### ✅ Desafios Implementados
+
+## Teste #2 _(13/05)_
+
+- [`Relógio`](auroratestproject/src/app/components/Relogio.tsx) + [`Relógio Analógico`](auroratestproject/src/app/components/Clock.tsx)
+- [`ToDo List + API Call`](auroratestproject/src/app/components/APIGetter.tsx)
+- [`Perguntas e Respostas`](auroratestproject/src/app/components/QandA.tsx)
+
+---
+
+### Teste #1
 
 - **Desafio 1 — Verificador de Tags HTML**  
   [`TagValidator.tsx`](auroratestproject/src/app/components/TagValidator.tsx)
